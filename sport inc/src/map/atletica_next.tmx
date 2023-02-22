@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="21" height="13" tilewidth="64" tileheight="64" infinite="0" nextlayerid="13" nextobjectid="55">
+ <editorsettings>
+  <export target="atletica_next.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="grass" tilewidth="64" tileheight="64" tilecount="208" columns="13">
+  <image source="sports/tile/grass.png" width="832" height="1024"/>
+ </tileset>
+ <tileset firstgid="209" name="gravel" tilewidth="64" tileheight="64" tilecount="208" columns="13">
+  <image source="sports/tile/gravel.png" width="832" height="1024"/>
+ </tileset>
+ <tileset firstgid="417" name="elements" tilewidth="64" tileheight="64" tilecount="81" columns="9">
+  <image source="sports/tile/elements.png" width="576" height="576"/>
+ </tileset>
+ <layer id="1" name="map" width="21" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+272,272,272,272,272,272,272,272,272,272,272,272,272,272,272,272,272,272,272,272,272,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup id="12" name="elements">
+  <object id="54" name="obstacleN" class="obstacle" gid="427" x="614" y="704" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="10" name="game">
+  <object id="50" name="gameOverN" class="gameOver" x="640" y="666" width="12" height="38">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="51" name="scorePointN" class="scorePoint" x="654" y="672" width="64" height="32">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

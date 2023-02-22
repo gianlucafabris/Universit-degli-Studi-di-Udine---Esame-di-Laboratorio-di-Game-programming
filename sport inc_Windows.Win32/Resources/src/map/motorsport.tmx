@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="21" height="13" tilewidth="64" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="109">
+ <editorsettings>
+  <export target="motorsport.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="tiles" tilewidth="64" tileheight="64" tilecount="1296" columns="36">
+  <image source="motorsport/tile/tiles.png" width="2304" height="2304"/>
+ </tileset>
+ <tileset firstgid="1297" name="elements" tilewidth="448" tileheight="256" tilecount="39" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="165" height="99" source="motorsport/elements/arrow_white.png"/>
+  </tile>
+  <tile id="1">
+   <image width="165" height="99" source="motorsport/elements/arrow_yellow.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="48" source="motorsport/elements/barrel_blue_down.png"/>
+  </tile>
+  <tile id="3">
+   <image width="56" height="56" source="motorsport/elements/barrel_blue.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="48" source="motorsport/elements/barrel_red_down.png"/>
+  </tile>
+  <tile id="5">
+   <image width="56" height="56" source="motorsport/elements/barrel_red.png"/>
+  </tile>
+  <tile id="6">
+   <image width="210" height="62" source="motorsport/elements/barrier_red_race.png"/>
+  </tile>
+  <tile id="7">
+   <image width="210" height="62" source="motorsport/elements/barrier_red.png"/>
+  </tile>
+  <tile id="8">
+   <image width="210" height="62" source="motorsport/elements/barrier_white_race.png"/>
+  </tile>
+  <tile id="9">
+   <image width="210" height="62" source="motorsport/elements/barrier_white.png"/>
+  </tile>
+  <tile id="10">
+   <image width="46" height="44" source="motorsport/elements/cone_down.png"/>
+  </tile>
+  <tile id="11">
+   <image width="45" height="44" source="motorsport/elements/cone_straight.png"/>
+  </tile>
+  <tile id="12">
+   <image width="98" height="235" source="motorsport/elements/light_white.png"/>
+  </tile>
+  <tile id="13">
+   <image width="98" height="235" source="motorsport/elements/light_yellow.png"/>
+  </tile>
+  <tile id="14">
+   <image width="160" height="64" source="motorsport/elements/lights.png"/>
+  </tile>
+  <tile id="15">
+   <image width="109" height="95" source="motorsport/elements/oil.png"/>
+  </tile>
+  <tile id="16">
+   <image width="89" height="72" source="motorsport/elements/rock1.png"/>
+  </tile>
+  <tile id="17">
+   <image width="73" height="68" source="motorsport/elements/rock2.png"/>
+  </tile>
+  <tile id="18">
+   <image width="87" height="67" source="motorsport/elements/rock3.png"/>
+  </tile>
+  <tile id="19">
+   <image width="60" height="192" source="motorsport/elements/skidmark_long_1.png"/>
+  </tile>
+  <tile id="20">
+   <image width="60" height="192" source="motorsport/elements/skidmark_long_2.png"/>
+  </tile>
+  <tile id="21">
+   <image width="76" height="192" source="motorsport/elements/skidmark_long_3.png"/>
+  </tile>
+  <tile id="22">
+   <image width="60" height="16" source="motorsport/elements/skidmark_short_1.png"/>
+  </tile>
+  <tile id="23">
+   <image width="60" height="16" source="motorsport/elements/skidmark_short_2.png"/>
+  </tile>
+  <tile id="24">
+   <image width="76" height="16" source="motorsport/elements/skidmark_short_3.png"/>
+  </tile>
+  <tile id="25">
+   <image width="256" height="256" source="motorsport/elements/tent_blue_large.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="motorsport/elements/tent_blue.png"/>
+  </tile>
+  <tile id="27">
+   <image width="256" height="256" source="motorsport/elements/tent_red_large.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="128" source="motorsport/elements/tent_red.png"/>
+  </tile>
+  <tile id="29">
+   <image width="56" height="56" source="motorsport/elements/tires_red_alt.png"/>
+  </tile>
+  <tile id="30">
+   <image width="56" height="56" source="motorsport/elements/tires_red.png"/>
+  </tile>
+  <tile id="31">
+   <image width="56" height="56" source="motorsport/elements/tires_white_alt.png"/>
+  </tile>
+  <tile id="32">
+   <image width="56" height="56" source="motorsport/elements/tires_white.png"/>
+  </tile>
+  <tile id="33">
+   <image width="214" height="212" source="motorsport/elements/tree_large.png"/>
+  </tile>
+  <tile id="34">
+   <image width="141" height="141" source="motorsport/elements/tree_small.png"/>
+  </tile>
+  <tile id="35">
+   <image width="448" height="223" source="motorsport/elements/tribune_empty.png"/>
+  </tile>
+  <tile id="36">
+   <image width="448" height="223" source="motorsport/elements/tribune_full.png"/>
+  </tile>
+  <tile id="37">
+   <image width="448" height="144" source="motorsport/elements/tribune_overhang_red.png"/>
+  </tile>
+  <tile id="38">
+   <image width="448" height="144" source="motorsport/elements/tribune_overhang_striped.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1336" name="cars_black" tilewidth="71" tileheight="131" tilecount="11" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="71" height="131" source="motorsport/cars/black/car_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="71" height="116" source="motorsport/cars/black/car_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="131" source="motorsport/cars/black/car_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="131" source="motorsport/cars/black/car_4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="121" source="motorsport/cars/black/car_5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="40" height="70" source="motorsport/cars/black/car_small_1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="40" height="62" source="motorsport/cars/black/car_small_2.png"/>
+  </tile>
+  <tile id="7">
+   <image width="39" height="70" source="motorsport/cars/black/car_small_3.png"/>
+  </tile>
+  <tile id="8">
+   <image width="39" height="70" source="motorsport/cars/black/car_small_4.png"/>
+  </tile>
+  <tile id="9">
+   <image width="39" height="65" source="motorsport/cars/black/car_small_5.png"/>
+  </tile>
+  <tile id="10">
+   <image width="44" height="100" source="motorsport/cars/black/motorcycle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1347" name="cars_blue" tilewidth="71" tileheight="131" tilecount="11" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="71" height="131" source="motorsport/cars/blue/car_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="71" height="116" source="motorsport/cars/blue/car_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="131" source="motorsport/cars/blue/car_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="131" source="motorsport/cars/blue/car_4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="121" source="motorsport/cars/blue/car_5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="40" height="70" source="motorsport/cars/blue/car_small_1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="40" height="62" source="motorsport/cars/blue/car_small_2.png"/>
+  </tile>
+  <tile id="7">
+   <image width="39" height="70" source="motorsport/cars/blue/car_small_3.png"/>
+  </tile>
+  <tile id="8">
+   <image width="39" height="70" source="motorsport/cars/blue/car_small_4.png"/>
+  </tile>
+  <tile id="9">
+   <image width="39" height="65" source="motorsport/cars/blue/car_small_5.png"/>
+  </tile>
+  <tile id="10">
+   <image width="44" height="100" source="motorsport/cars/blue/motorcycle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1358" name="cars_green" tilewidth="71" tileheight="131" tilecount="11" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="71" height="131" source="motorsport/cars/green/car_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="71" height="116" source="motorsport/cars/green/car_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="131" source="motorsport/cars/green/car_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="131" source="motorsport/cars/green/car_4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="121" source="motorsport/cars/green/car_5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="40" height="70" source="motorsport/cars/green/car_small_1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="40" height="62" source="motorsport/cars/green/car_small_2.png"/>
+  </tile>
+  <tile id="7">
+   <image width="39" height="70" source="motorsport/cars/green/car_small_3.png"/>
+  </tile>
+  <tile id="8">
+   <image width="39" height="70" source="motorsport/cars/green/car_small_4.png"/>
+  </tile>
+  <tile id="9">
+   <image width="39" height="65" source="motorsport/cars/green/car_small_5.png"/>
+  </tile>
+  <tile id="10">
+   <image width="44" height="100" source="motorsport/cars/green/motorcycle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1369" name="cars_red" tilewidth="71" tileheight="131" tilecount="11" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="71" height="131" source="motorsport/cars/red/car_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="71" height="116" source="motorsport/cars/red/car_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="131" source="motorsport/cars/red/car_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="131" source="motorsport/cars/red/car_4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="121" source="motorsport/cars/red/car_5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="40" height="70" source="motorsport/cars/red/car_small_1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="40" height="62" source="motorsport/cars/red/car_small_2.png"/>
+  </tile>
+  <tile id="7">
+   <image width="39" height="70" source="motorsport/cars/red/car_small_3.png"/>
+  </tile>
+  <tile id="8">
+   <image width="39" height="70" source="motorsport/cars/red/car_small_4.png"/>
+  </tile>
+  <tile id="9">
+   <image width="39" height="65" source="motorsport/cars/red/car_small_5.png"/>
+  </tile>
+  <tile id="10">
+   <image width="44" height="100" source="motorsport/cars/red/motorcycle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1380" name="cars_yellow" tilewidth="71" tileheight="131" tilecount="11" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="71" height="131" source="motorsport/cars/yellow/car_1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="71" height="116" source="motorsport/cars/yellow/car_2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="70" height="131" source="motorsport/cars/yellow/car_3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="70" height="131" source="motorsport/cars/yellow/car_4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="70" height="121" source="motorsport/cars/yellow/car_5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="40" height="70" source="motorsport/cars/yellow/car_small_1.png"/>
+  </tile>
+  <tile id="6">
+   <image width="40" height="62" source="motorsport/cars/yellow/car_small_2.png"/>
+  </tile>
+  <tile id="7">
+   <image width="39" height="70" source="motorsport/cars/yellow/car_small_3.png"/>
+  </tile>
+  <tile id="8">
+   <image width="39" height="70" source="motorsport/cars/yellow/car_small_4.png"/>
+  </tile>
+  <tile id="9">
+   <image width="39" height="65" source="motorsport/cars/yellow/car_small_5.png"/>
+  </tile>
+  <tile id="10">
+   <image width="44" height="100" source="motorsport/cars/yellow/motorcycle.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="1391" name="map_extra" tilewidth="1344" tileheight="832" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="1344" height="832" source="motorsport/map extra/background.png"/>
+  </tile>
+  <tile id="1">
+   <image width="1344" height="832" source="motorsport/map extra/map.png"/>
+  </tile>
+ </tileset>
+ <layer id="4" name="background" width="21" height="13" visible="0">
+  <data encoding="csv">
+959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,
+995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,
+959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,
+995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,
+959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,
+995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,
+959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,
+995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,
+959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,
+995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,
+959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,
+995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,996,995,
+959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959,960,959
+</data>
+ </layer>
+ <layer id="1" name="map" width="21" height="13" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,803,804,869,870,875,876,1089,1162,731,732,582,803,804,876,299,300,227,228,0,
+0,0,839,840,905,906,911,912,1013,1230,911,695,618,839,840,912,333,336,263,264,0,
+0,0,947,948,743,744,1140,349,1049,1266,0,579,798,797,580,0,585,586,225,226,0,
+0,0,983,984,26,780,744,241,242,0,0,615,975,976,616,0,621,622,333,262,0,
+0,0,151,80,7,779,780,1175,1176,1103,1104,1103,1104,1103,1104,1103,1104,0,947,948,0,
+0,0,186,113,42,97,98,1211,1212,1139,1140,1139,1140,1139,1140,1139,1140,349,983,984,0,
+0,0,149,947,948,25,26,815,816,815,816,815,816,815,815,743,744,887,295,224,0,
+0,0,185,983,984,61,62,851,852,851,852,851,852,851,851,779,780,762,259,260,0,
+0,0,0,799,800,876,511,512,291,292,291,292,291,292,291,292,295,294,221,222,0,
+0,0,0,835,836,912,547,548,327,328,327,328,327,328,327,328,329,330,257,258,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="background_fix" locked="1">
+  <object id="78" gid="1391" x="0" y="832" width="1344" height="832"/>
+ </objectgroup>
+ <objectgroup id="6" name="map_fix" locked="1">
+  <object id="79" gid="1392" x="0" y="832" width="1344" height="832"/>
+ </objectgroup>
+ <objectgroup id="5" name="elements" locked="1">
+  <object id="1" gid="1333" x="227.5" y="833.5" width="448" height="223" rotation="-100"/>
+  <object id="2" gid="1333" x="704" y="704" width="448" height="223" rotation="180"/>
+  <object id="6" gid="1322" x="-128" y="384" width="256" height="256"/>
+  <object id="8" gid="1315" x="320" y="512" width="87" height="67"/>
+  <object id="9" gid="1313" x="393" y="576" width="89" height="72"/>
+  <object id="10" gid="1314" x="320" y="576" width="73" height="68"/>
+  <object id="11" gid="1326" x="960" y="576" width="56" height="56"/>
+  <object id="12" gid="1300" x="704" y="368.29" width="56" height="56"/>
+  <object id="13" gid="1302" x="648" y="248" width="56" height="56"/>
+  <object id="14" gid="1331" x="937.5" y="391.5" width="141" height="141"/>
+  <object id="15" gid="1325" x="576" y="354" width="128" height="128"/>
+  <object id="16" gid="1328" x="512" y="264" width="56" height="56"/>
+  <object id="17" gid="1319" x="1060" y="592" width="60" height="16"/>
+  <object id="18" gid="1319" x="1058" y="594" width="60" height="16" rotation="15"/>
+  <object id="19" gid="1319" x="1062" y="589" width="60" height="16" rotation="-15"/>
+  <object id="20" gid="1312" x="1024" y="244" width="109" height="95" rotation="44"/>
+  <object id="21" gid="1319" x="1108" y="528" width="60" height="16"/>
+  <object id="22" gid="1319" x="1106" y="530" width="60" height="16" rotation="15"/>
+  <object id="23" gid="1319" x="1110" y="525" width="60" height="16" rotation="-15"/>
+  <object id="24" gid="1319" x="1168.51" y="235.18" width="60" height="16" rotation="115.052"/>
+  <object id="25" gid="1319" x="1167.56" y="232.513" width="60" height="16" rotation="130.052"/>
+  <object id="26" gid="1319" x="1170.36" y="238.211" width="60" height="16" rotation="100.052"/>
+  <object id="27" gid="1319" x="1195.03" y="306.462" width="60" height="16" rotation="295.054"/>
+  <object id="28" gid="1319" x="1195.99" y="309.225" width="60" height="16" rotation="310.054"/>
+  <object id="29" gid="1319" x="1193.16" y="303.536" width="60" height="16" rotation="280.055"/>
+  <object id="30" gid="1319" x="1237.01" y="267.679" width="60" height="16" rotation="115.05"/>
+  <object id="31" gid="1319" x="1236.06" y="265.013" width="60" height="16" rotation="130.05"/>
+  <object id="32" gid="1319" x="1238.86" y="270.71" width="60" height="16" rotation="100.05"/>
+  <object id="33" gid="1319" x="1256.8" y="275.5" width="60" height="16" rotation="80.0498"/>
+  <object id="34" gid="1319" x="1254.5" y="274" width="60" height="16" rotation="95.0498"/>
+  <object id="35" gid="1319" x="1260" y="277" width="60" height="16" rotation="65.0502"/>
+  <object id="36" gid="1339" x="1324" y="310" width="70" height="131" rotation="330"/>
+  <object id="37" gid="1318" x="414" y="602" width="76" height="192" rotation="90"/>
+  <object id="38" gid="1316" x="606" y="618" width="60" height="192" rotation="90"/>
+  <object id="39" gid="1316" x="798" y="602" width="60" height="192" rotation="90"/>
+  <object id="43" gid="1303" x="750" y="512" width="210" height="62" rotation="180"/>
+  <object id="44" gid="1306" x="960" y="512" width="210" height="62" rotation="180"/>
+  <object id="45" gid="1327" x="520" y="376" width="56" height="56"/>
+  <object id="46" gid="1329" x="320" y="384" width="56" height="56"/>
+  <object id="47" gid="1308" x="340" y="446" width="45" height="44"/>
+  <object id="48" gid="1308" x="484" y="556" width="45" height="44"/>
+  <object id="49" gid="1307" x="406" y="478" width="46" height="44" rotation="45"/>
+  <object id="70" gid="1301" x="998" y="250" width="70" height="48" rotation="10"/>
+ </objectgroup>
+ <objectgroup id="3" name="game">
+  <object id="50" name="player" gid="1354" x="998" y="680" width="39" height="70" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="1"/>
+    <property name="bodyType" value="dynamic"/>
+    <property name="bounce" type="float" value="0.25"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0.75"/>
+    <property name="isVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="51" name="ai3" class="ai" gid="1364" x="860" y="640" width="40" height="62" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="1"/>
+    <property name="bodyType" value="dynamic"/>
+    <property name="bounce" type="float" value="0.25"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0.75"/>
+    <property name="isVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="52" name="ai2" class="ai" gid="1378" x="737" y="680" width="39" height="65" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="1"/>
+    <property name="bodyType" value="dynamic"/>
+    <property name="bounce" type="float" value="0.25"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0.75"/>
+    <property name="isVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="53" name="ai1" class="ai" gid="1385" x="614" y="640" width="40" height="70" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="1"/>
+    <property name="bodyType" value="dynamic"/>
+    <property name="bounce" type="float" value="0.25"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0.75"/>
+    <property name="isVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="55" name="gameOverBottom" class="gameOver" x="0" y="704" width="1344" height="128">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="56" name="gameOverTop" class="gameOver" x="0" y="0" width="1344" height="64">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="57" name="gameOverLeft" class="gameOver" x="0" y="64" width="128" height="640">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="58" name="gameOverLeft" class="gameOver" x="1280" y="64" width="64" height="640">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="59" name="gameOverTopLeft" class="gameOver" x="127.875" y="64.1311">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.24211,-0.0110941 0.243224,127.737 12.1221,63.8818 64.1264,12.8695 127.997,-0.00822795"/>
+  </object>
+  <object id="60" name="gameOverTopRight" class="gameOver" x="1152" y="64">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="-127.878,0.127583 -63.99,6.01935 -0.00100088,25.0019 58.0278,63.9971 63.8711,69.8109 63.8764,0.125387"/>
+  </object>
+  <object id="73" name="gameOverTopRight2" class="gameOver" x="1152" y="64">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="64.1184,0.134673 64.1152,70.1282 102.105,127.997 121.014,192.004 127.876,255.852 127.879,0.132152"/>
+  </object>
+  <object id="61" name="gameOverBottomRight1" class="gameOver" x="1280" y="576" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="127.874,64.0821 58.1059,64.087 63.999,70.0059 102.105,127.997 121.014,192.004 127.88,255.872"/>
+  </object>
+  <object id="74" name="gameOverBottomRight2" class="gameOver" x="1280" y="576" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="-127.807,0.147115 -63.99,6.01935 -0.00100088,25.0019 57.8715,63.8838 127.879,63.8862 127.872,0.136303"/>
+  </object>
+  <object id="62" name="gameOverTop1" class="gameOver" x="512" y="64">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.109298,0.121718 63.9976,32.2009 127.864,0.116772"/>
+  </object>
+  <object id="63" name="gameOverTop2" class="gameOver" x="832" y="64">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="-63.8715,0.116053 0.0195405,63.9986 -0.00263165,127.829 12.1221,63.8818 64.1264,12.8695 127.888,0.10896"/>
+  </object>
+  <object id="64" name="gameOverBottomLeft1" class="gameOver" x="192" y="704" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.121788,-63.879 0.118184,-0.108476 256.002,-0.114255 383.854,-63.8858"/>
+  </object>
+  <object id="72" name="gameOverBottomLeft2" class="gameOver" x="192" y="704" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.138112,0.10979 0.147512,127.852 12.1221,63.8818 64.1264,12.8695 127.822,0.103516"/>
+  </object>
+  <object id="65" name="gameOverInnerBottom1" class="gameOver" x="384" y="576" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="128.173,-63.9911 128.173,-0.164478 191.992,-0.168844 319.879,-127.873 255.993,-127.871"/>
+  </object>
+  <object id="75" name="gameOverInnerBottom2" class="gameOver" x="384" y="576" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.162672,-63.8674 0.161623,63.8287 64.1763,63.8346 127.844,0.160263 127.846,-63.869"/>
+  </object>
+  <object id="66" name="gameOverInnerTop1" class="gameOver" x="576" y="384" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.000429611,0.00281868 0.00037928,127.831 191.815,127.832 191.812,64.0019 159.934,-0.00648506 191.808,-63.9947 191.819,-127.812 127.943,-63.9919 63.9344,-63.946"/>
+  </object>
+  <object id="77" name="gameOverInnerTop3" class="gameOver" x="576" y="384" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.00432638,384.112 -0.0545976,512.02 -63.9034,575.908 63.9915,575.883 75.9772,511.999 127.993,461.025 191.9,447.999 191.904,384.114"/>
+  </object>
+  <object id="76" name="gameOverInnerTop2" class="gameOver" x="576" y="384" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.0021704,128.151 0.00117175,383.836 127.831,383.839 63.9511,319.988 64.0194,192.01 127.824,128.148"/>
+  </object>
+  <object id="68" name="zonaScivolosa1" class="zonaScivolosa" x="1024.71" y="190.987">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="-0.715097,1.01415 63.2938,1.01581 127.281,65.0129 127.288,129.013 63.2946,117.024 12.317,65"/>
+  </object>
+  <object id="69" name="zonaScivolosa2" class="zonaScivolosa" x="1153" y="449" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="-0.998157,0.997773 63.0055,0.998038 127.007,64.9913 127.006,128.992 62.9981,192.998 62.975,704.992 -0.993746,768.969 -65.0003,769.05 -193.023,896.994 -257.008,896.99 -257.005,705 -192.942,640.997 -128.934,640.937 -64.9455,576.985 -64.9735,64.9372"/>
+  </object>
+  <object id="71" name="gameOverInnerBottom3" class="gameOver" x="384" y="576" rotation="-90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+   <polygon points="0.138556,64.1752 0.116132,639.862 63.8939,575.996 63.8944,64.1751"/>
+  </object>
+  <object id="81" name="scorePoint" class="scorePoint" x="416" y="576" width="64" height="128">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="82" name="aiCheckPoint2" class="aiCheckPoint" x="319.5" y="575.5" width="1" height="126" rotation="45">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="83" name="aiCheckPoint7" class="aiCheckPoint" x="256.5" y="191.5" width="1" height="126" rotation="135">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="84" name="aiCheckPoint13" class="aiCheckPoint" x="704.5" y="192.5" width="1" height="135" rotation="225">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="85" name="aiCheckPoint15" class="aiCheckPoint" x="831.5" y="191.5" width="1" height="135" rotation="45">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="86" name="aiCheckPoint17" class="aiCheckPoint" x="832" y="192.5" width="1" height="135" rotation="-45">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="87" name="aiCheckPoint19" class="aiCheckPoint" x="960.5" y="191.5" width="1" height="126" rotation="135">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="88" name="aiCheckPoint22" class="aiCheckPoint" x="1212.5" y="131.5" width="1" height="130" rotation="45">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="89" name="aiCheckPoint23" class="aiCheckPoint" x="1280" y="320" width="1" height="128" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="90" name="aiCheckPoint25" class="aiCheckPoint" x="1213.5" y="636.5" width="1" height="130" rotation="135">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="91" name="aiCheckPoint26" class="aiCheckPoint" x="1023" y="576" width="1" height="128">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="92" name="aiCheckPoint1" class="aiCheckPoint" x="321" y="576" width="1" height="128">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="93" name="aiCheckPoint3" class="aiCheckPoint" x="320" y="574" width="1" height="128" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="95" name="aiCheckPoint6" class="aiCheckPoint" x="256" y="193" width="1" height="128" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="96" name="aiCheckPoint5" class="aiCheckPoint" x="256" y="320" width="1" height="128" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="97" name="aiCheckPoint4" class="aiCheckPoint" x="320" y="448" width="1" height="128" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="98" name="aiCheckPoint8" class="aiCheckPoint" x="258" y="192" width="1" height="128" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="99" name="aiCheckPoint9" class="aiCheckPoint" x="512" y="192" width="1" height="128" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="100" name="aiCheckPoint10" class="aiCheckPoint" x="576" y="224" width="1" height="128" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="101" name="aiCheckPoint11" class="aiCheckPoint" x="640" y="192" width="1" height="128" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="102" name="aiCheckPoint12" class="aiCheckPoint" x="703" y="192" width="1" height="128" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="103" name="aiCheckPoint14" class="aiCheckPoint" x="704" y="194.03" width="1" height="128" rotation="268.5">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="104" name="aiCheckPoint16" class="aiCheckPoint" x="832.5" y="320" width="1" height="126" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="105" name="aiCheckPoint18" class="aiCheckPoint" x="833" y="190.5" width="1" height="127" rotation="271.5">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="106" name="aiCheckPoint20" class="aiCheckPoint" x="962" y="192" width="1" height="128" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="107" name="aiCheckPoint21" class="aiCheckPoint" x="1024" y="192" width="1" height="128" rotation="180">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="108" name="aiCheckPoint24" class="aiCheckPoint" x="1280" y="447" width="1" height="128" rotation="90">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

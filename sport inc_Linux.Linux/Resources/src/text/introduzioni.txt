@@ -1,0 +1,71 @@
+Intro: gioco
+Img sx: Andrea
+Titolo: Benvenuto!
+Img dx: Gianluca
+Testo sx: Ciao, piccolo allenatore siamo Andrea e Gianluca e ti guideremo alla scoperta del gioco e dei vari sport.
+Sei pronto? Bene iniziamo comprando la tua prima palestra.
+Video dx: come comprare palestra
+_________________________________________________________________________________________________________
+Intro: minigioco
+Img sx: Andrea
+Titolo: Ecco la tua prima palestra
+Img dx: Gianluca
+Testo sx: In ogni palestra potrai giocare ad un minigioco che ti consentirà di guadagnare dei soldi per comprare altre palestre o migliorarle.
+Se effettui il miglioramento della palestra ti consentirà di guadagnare in modo passivo.
+Video dx: come entrare in minigioco e upgradeare la palestra
+_________________________________________________________________________________________________________
+Intro: atletica
+Img sx: Andrea
+Titolo: Atletica
+Img dx: Gianluca
+Testo sx: È uno sport praticato soprattutto nelle scuole. Ci sono diverse specialità e molte partecipano ai giochi olimpici.
+Per giocare a questo minigioco devi altare gli ostacoli.
+Video dx: come giocare minigioco atletica
+_________________________________________________________________________________________________________
+Intro: basket
+Img sx: Andrea
+Titolo: Basket
+Img dx: Gianluca
+Testo sx: È uno sport praticato in molti paesi e al livello più alto (NBA) gli atleti vengono pagati bene.
+Per giocare a questo minigioco devi lanciare la palla nel canestro.
+Video dx: come giocare minigioco basket
+_________________________________________________________________________________________________________
+Intro: calcio
+Img sx: Andrea
+Titolo: Calcio
+Img dx: Gianluca
+Testo sx: È lo sport più praticato e seguito in molti paesi e gli atleti sono tra gli sportivi più pagati al mondo.
+Per giocare a questo minigioco devi lanciare la palla nella porta.
+Video dx: come giocare minigioco calcio
+_________________________________________________________________________________________________________
+Intro: pallavolo
+Img sx: Andrea
+Titolo: Pallavolo
+Img dx: Gianluca
+Testo sx: È uno sport praticato in molti paesi.
+Per giocare a questo minigioco devi far rimbalzare la palla e non lasciarla cadere se riesci a far passare la palla al di là della rete guadagni molti più punti.
+Video dx: come giocare minigioco pallavolo
+_________________________________________________________________________________________________________
+Intro: tennis
+Img sx: Andrea
+Titolo: Tennis
+Img dx: Gianluca
+Testo sx: È uno sport praticato in molti paesi.
+Per giocare a questo minigioco devi far rimbalzare la palla al di là della rete per ottenere dei punti e se riesci a far atterrare la palla nell'area di fuorigioco avversaria guadagni molti più punti.
+Video dx: come giocare minigioco tennis
+_________________________________________________________________________________________________________
+Intro: motorsport
+Img sx: Andrea
+Titolo: Motorsport
+Img dx: Gianluca
+Testo sx: È lo sport più costoso perché le macchine da corsa costano tanto, infatti molti piloti anche ai livelli più alti (Formula1, NASCAR, Dakar e molti altri) pagano per correre, ci sono diverse discipline seguite in molti paesi.
+Per giocare a questo minigioco devi completare i giri di pista e superare gli avversari.
+Video dx: come giocare minigioco motorsport
+_________________________________________________________________________________________________________
+Intro: fine
+Img sx: Andrea
+Titolo: Fine
+Img dx: Gianluca
+Testo sx: Grande! Hai comprato e migliorato tutte le palestre. Presto ce ne saranno di nuove, nel frattempo puoi continuare a divertirti giocando ai minigiochi.
+Ricordati: con impegno e costanza e anche partendo da poco si può arrivare a raggiungere i propri desideri.
+Video dx: fine

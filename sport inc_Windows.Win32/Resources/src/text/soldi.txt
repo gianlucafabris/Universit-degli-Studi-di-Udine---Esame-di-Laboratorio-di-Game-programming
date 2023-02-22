@@ -1,0 +1,51 @@
+Gioco: inizio
+Soldi in banca = 100 soldi
+_________________________________________________________________________________________________________
+Minigioco: Atletica
+Acquisto = 100 soldi
+Tassa ingresso = NO
+Punto = 10 soldi
+Bonus = NO
+Miglioramento = NO
+Entrata passiva = NO
+_________________________________________________________________________________________________________
+Minigioco: Basket
+Acquisto = 250 soldi
+Tassa ingresso = NO
+Punto = 25 soldi
+Bonus = NO
+Miglioramento = 1000 soldi
+Entrata passiva = 600 soldi/h
+_________________________________________________________________________________________________________
+Minigioco: Calcio
+Acquisto = 1000 soldi
+Tassa ingresso = NO
+Punto = 100 soldi
+Bonus = NO
+Miglioramento = 2000 soldi
+Entrata passiva = 1200 soldi/h
+_________________________________________________________________________________________________________
+Minigioco: Pallavolo
+Acquisto = 350 soldi
+Tassa ingresso = NO
+Punto = 35 soldi
+Bonus = oltrepassare la rete 10 punti
+Miglioramento = 100 soldi
+Entrata passiva = 10 soldi/h
+_________________________________________________________________________________________________________
+Minigioco: Tennis
+Acquisto = 400 soldi
+Tassa ingresso = NO
+Punto = 40 soldi
+Bonus = area fuorigioco avversario 25 punti
+Miglioramento = 200 soldi
+Entrata passiva = 20 soldi/h
+_________________________________________________________________________________________________________
+Minigioco: Motorsport
+Acquisto = 10000 soldi
+Tassa ingresso = 500 soldi
+Punto = (1^ 1500 soldi, 2^ 750 soldi, 3^ 500 soldi, 4^ 375 soldi)
+Bonus = NO
+Miglioramento = 50000 soldi
+Entrata passiva = 800 soldi/h
+_________________________________________________________________________________________________________

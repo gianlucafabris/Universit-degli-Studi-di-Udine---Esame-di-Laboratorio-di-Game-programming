@@ -1,0 +1,14 @@
+atletica_jump 0,5s
+basket_ball 1s
+game_palestra_cash 1,5s
+game_palestra_unlock 1,5s
+game_palestra_upgrade 1,5s
+game 10,65s
+intro 5,5s
+minigioco_ball 0,5s
+minigioco_win 2s
+motorsport_car_ai1 5s
+motorsport_car_ai2 5s
+motorsport_car_ai3 5s
+motorsport_car_player 5s
+tennis_ball 0,5s
