@@ -1,0 +1,54 @@
+gioco
+src/img/game extra/avatar_andrea.png
+Benvenuto!
+src/img/game extra/avatar_gianluca.png
+Ciao, piccolo allenatore siamo Andrea e Gianluca e ti guideremo alla scoperta del gioco e dei vari sport.\nSei pronto? Bene iniziamo comprando la tua prima palestra.
+src/video/comprare.mp4
+minigioco
+src/img/game extra/head_andrea.png
+Ecco la tua prima palestra
+src/img/game extra/head_gianluca.png
+In ogni palestra potrai giocare ad un minigioco che ti consentirà di guadagnare dei soldi per comprare altre palestre o migliorarle.\nSe effettui il miglioramento della palestra ti consentirà di guadagnare in modo passivo.
+src/video/upgrade.mp4
+atletica
+src/img/game extra/head_andrea.png
+Atletica
+src/img/game extra/head_gianluca.png
+È uno sport praticato soprattutto nelle scuole. Ci sono diverse specialità e molte partecipano ai giochi olimpici.\nPer giocare a questo minigioco devi altare gli ostacoli.
+src/video/atletica.mp4
+basket
+src/img/game extra/head_andrea.png
+Basket
+src/img/game extra/head_gianluca.png
+È uno sport praticato in molti paesi e al livello più alto (NBA) gli atleti vengono pagati bene.\nPer giocare a questo minigioco devi lanciare la palla nel canestro.
+src/video/basket.mp4
+calcio
+src/img/game extra/head_andrea.png
+Calcio
+src/img/game extra/head_gianluca.png
+È lo sport più praticato e seguito in molti paesi e gli atleti sono tra gli sportivi più pagati al mondo.\nPer giocare a questo minigioco devi lanciare la palla nella porta.
+src/video/calcio.mp4
+pallavolo
+src/img/game extra/head_andrea.png
+Pallavolo
+src/img/game extra/head_gianluca.png
+È uno sport praticato in molti paesi.\nPer giocare a questo minigioco devi far rimbalzare la palla e non lasciarla cadere se riesci a far passare la palla al di là della rete guadagni molti più punti.
+src/video/pallavolo.mp4
+tennis
+src/img/game extra/head_andrea.png
+Tennis
+src/img/game extra/head_gianluca.png
+È uno sport praticato in molti paesi.\nPer giocare a questo minigioco devi far rimbalzare la palla al di là della rete per ottenere dei punti e se riesci a far atterrare la palla nell'area di fuorigioco avversaria guadagni molti più punti.
+src/video/tennis.mp4
+motorsport
+src/img/game extra/head_andrea.png
+Motorsport
+src/img/game extra/head_gianluca.png
+È lo sport più costoso perché le macchine da corsa costano tanto, infatti molti piloti anche ai livelli più alti (Formula1, NASCAR, Dakar e molti altri) pagano per correre, ci sono diverse discipline seguite in molti paesi.\nPer giocare a questo minigioco devi completare i giri di pista e superare gli avversari.
+src/video/motorsport.mp4
+fine
+src/img/game extra/head_andrea.png
+Fine
+src/img/game extra/head_gianluca.png
+Grande! Hai comprato e migliorato tutte le palestre. Presto ce ne saranno di nuove, nel frattempo puoi continuare a divertirti giocando ai minigiochi.\nRicordati: con impegno e costanza e anche partendo da poco si può arrivare a raggiungere i propri desideri.
+src/video/fine.mp4

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="21" height="13" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="54">
+ <editorsettings>
+  <export target="atletica.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="elements" tilewidth="64" tileheight="64" tilecount="81" columns="9">
+  <image source="sports/tile/elements.png" width="576" height="576"/>
+ </tileset>
+ <tileset firstgid="82" name="grass" tilewidth="64" tileheight="64" tilecount="208" columns="13">
+  <image source="sports/tile/grass.png" width="832" height="1024"/>
+ </tileset>
+ <tileset firstgid="290" name="gravel" tilewidth="64" tileheight="64" tilecount="208" columns="13">
+  <image source="sports/tile/gravel.png" width="832" height="1024"/>
+ </tileset>
+ <tileset firstgid="498" name="background" tilewidth="1344" tileheight="832" tilecount="3" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="6">
+   <image width="1344" height="832" source="sports/background/basket.png"/>
+  </tile>
+  <tile id="7">
+   <image width="1344" height="832" source="sports/background/atletica.png"/>
+  </tile>
+  <tile id="9">
+   <image width="1344" height="832" source="sports/background/pallavolo.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="508" name="characters extra" tilewidth="15" tileheight="37" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="4">
+   <image width="15" height="37" source="sports/characters extra/player.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="513" name="characters extra" tilewidth="64" tileheight="64" tilecount="1" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="2">
+   <image width="15" height="37" source="sports/characters extra/player.png"/>
+  </tile>
+ </tileset>
+ <layer id="9" name="background" width="21" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+505,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="1" name="map" width="21" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+82,82,353,459,353,353,353,353,353,353,353,353,353,353,353,353,353,353,353,353,353,
+82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82,82
+</data>
+ </layer>
+ <objectgroup id="10" name="elements">
+  <object id="52" name="obstacle1" class="obstacle" gid="11" x="704" y="704" width="64" height="64"/>
+  <object id="53" name="obstacle2" class="obstacle" gid="11" x="1088" y="704" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup id="7" name="game">
+  <object id="7" name="gameOver1" class="gameOver" x="729.999" y="666" width="12" height="38">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="23" name="scorePoint1" class="scorePoint" x="744" y="672" width="64" height="32">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="47" name="gameOver2" class="gameOver" x="1114" y="666" width="12" height="38">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="48" name="scorePoint2" class="scorePoint" x="1128" y="672" width="64" height="32">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="isSensor" type="bool" value="true"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="49" name="floor" x="0" y="704" width="1344" height="128">
+   <properties>
+    <property name="alpha" type="float" value="0"/>
+    <property name="bodyType" value="static"/>
+    <property name="bounce" type="float" value="0"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="1"/>
+    <property name="isVisible" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="50" name="player" gid="512" x="128" y="704" width="30" height="74">
+   <properties>
+    <property name="alpha" type="float" value="1"/>
+    <property name="bodyType" value="dynamic"/>
+    <property name="bounce" type="float" value="0.25"/>
+    <property name="density" type="float" value="1"/>
+    <property name="friction" type="float" value="0.75"/>
+    <property name="isVisible" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
